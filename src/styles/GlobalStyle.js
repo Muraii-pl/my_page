@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
       font-size:1.6rem;
-      color:red;
+      color:${(props) => props.theme.colors.text};
       font-family:"Ubuntu", sans-serif;
       line-height:1.6 ;
   }
