@@ -12,6 +12,7 @@ const NavStyled = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: min(1%, 8px);
 `;
 
 export { NavListStyled, NavStyled };
