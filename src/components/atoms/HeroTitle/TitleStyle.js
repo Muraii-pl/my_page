@@ -7,7 +7,7 @@ const H1Style = styled.h1`
 
 const H2Style = styled.h2`
   color: ${(props) => props.theme.colors.secondText};
-  font-size: min(4.8rem, 9vw);
+  font-size: min(4.8rem, 9  vw);
   font-weight: normal;
 `;
 
