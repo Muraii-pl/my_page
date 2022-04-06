@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
 const HeaderStyled = styled.div`
-  width: 100vw;
+  width: 100%;
   background: ${(props) => props.theme.colors.primary};
   color: ${(props) => props.theme.colors.secondText};
-  padding: 2rem 0;
+  position: fixed;
+  height: 6.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
 `;
 
 export default HeaderStyled;

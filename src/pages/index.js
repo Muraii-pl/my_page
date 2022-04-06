@@ -5,8 +5,15 @@ const MainPage = () => {
   return (
     <MainTemplate>
       <>
-        <p>Test Mateusz Głowania xx</p>
-        <p>xd</p>
+        <div
+          className="O_mnie"
+          style={{ height: "100vh", marginTop: "6.4rem" }}
+        >
+          Test Mateusz Głowania xx
+        </div>
+        <div className="Projekty" style={{ height: "100vh" }}>
+          xd
+        </div>
       </>
     </MainTemplate>
   );
