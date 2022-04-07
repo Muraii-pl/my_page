@@ -1,13 +1,13 @@
 import React from "react";
 import Title from "../../atoms/AboutMeTitle/Title";
-import Photo from "../../atoms/MyPhoto/Photo";
+import AboutMeBody from "../../molecules/AboutMeBody/AboutMeBody";
 import AboutMeWrapper from "./AboutMeStyle";
 
 const AboutMe = () => {
   return (
     <AboutMeWrapper className="O_mnie">
       <Title />
-      <Photo />
+      <AboutMeBody />
     </AboutMeWrapper>
   );
 };

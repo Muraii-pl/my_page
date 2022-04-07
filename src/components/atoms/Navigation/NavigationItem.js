@@ -9,7 +9,7 @@ const NavigationItem = ({ name }) => {
         to={`${name.replace(/\s+/g, "_")}`}
         spy={true}
         smooth={true}
-        offset={-64}
+        offset={0}
         duration={500}
       >
         {name}
