@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import { ThemeContext } from "../../../context/ThemeContext";
 import { MdLightbulbOutline, MdNightlightRound } from "react-icons/md";
 import ToggleWrapper from "./ToggleStyled";

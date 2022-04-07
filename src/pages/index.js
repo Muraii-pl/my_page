@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "../components/organisms/AboutMe/AboutMe";
 import Hero from "../components/organisms/Hero/Hero";
 import MainTemplate from "../components/templates/MainTemplate";
 
@@ -7,9 +8,7 @@ const MainPage = () => {
     <MainTemplate>
       <>
         <Hero />
-        <div className="Projekty" style={{ height: "100vh" }}>
-          xd
-        </div>
+        <AboutMe />
       </>
     </MainTemplate>
   );
